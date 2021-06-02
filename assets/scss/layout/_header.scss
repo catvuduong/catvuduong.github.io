@@ -1,0 +1,17 @@
+.myHeader {
+    background-color: #4dbfd9;
+    .container {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        .header_name {
+            padding-top: 5px;
+        }
+        .header_contact {
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
