@@ -1,32 +1,37 @@
 .about {
-    margin-top: 265px;
-    padding-top: 50px;
+    margin-top: 260px;
     .container {
-        .row {
-            .col-7 {
-                padding-left: 50px;
-                padding-right: 75px;
-                p {
-                    text-align: justify;
-                    span {
-                        @include text(#4dbfd9, 18px, $fw-bold);
-                        color: #4dbfd9;
+        .about_content {
+            background-color: white;
+            padding-top: 30px;
+            .row {
+                padding-bottom: 10px;
+                .about_info {
+                    padding-left: 50px;
+                    padding-right: 75px;
+                    p {
+                        text-align: justify;
+                        span {
+                            @include text(#4dbfd9, 18px, $fw-bold);
+                            color: #4dbfd9;
+                        }
                     }
                 }
-            }
-            .col-5 {
-                .basic_info {
-                    .row {
-                        .col-4 {
-                            h6 {
-                                @include text($color-white-0, $fs-1, $fw-bold);
-                                margin-top: 8px;
+                .about_living {
+                    padding-right: 50px;
+                    .basic_info {
+                        .row {
+                            .col-4 {
+                                h6 {
+                                    @include text($color-black-0, $fs-1, $fw-bold);
+                                    margin-top: 8px;
+                                }
                             }
-                        }
-                        .col-8 {
-                            h6 {
-                                @include text($color-gray-4, $fs-1, $fw-bold);
-                                margin-top: 8px;
+                            .col-8 {
+                                h6 {
+                                    @include text($color-gray-4, $fs-1, $fw-bold);
+                                    margin-top: 8px;
+                                }
                             }
                         }
                     }

@@ -28,13 +28,13 @@
             background-repeat: no-repeat;
             background-size: cover;
             text-align: center;
-            padding-top: 20px;
+            // padding-top: 20px;
             height: 450px;
             img {
                 margin-top: 20px;
-                width: 150px;
-                height: 150px;
-                border-radius: 150px;
+                width: 200px;
+                height: 200px;
+                border-radius: 200px;
             }
             .intro {
                 margin-top: 20px;
@@ -59,7 +59,7 @@
                 }
             }
             .resume {
-                margin-top: 80px;
+                margin-top: 51px;
                 text-align: right;
                 button {
                     @include text($color-white-0, $fs-1, $fw-bold);

@@ -12,7 +12,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="./assets/css/aos.css?ver=1.2.0">
     <link rel="stylesheet" href="assets//css//style.css">
 </head>
 
@@ -34,7 +35,7 @@
                 <img src="./assets/images/portrait.jpg" alt="" />
                 <div class="intro">
                     <h2>Dương Cát Vũ</h2>
-                    <h6>Web developer</h6>
+                    <h6>Front-End Developer</h6>
                 </div>
                 <div class="contact">
                     <span><i class="fab fa-facebook"></i></span>
@@ -48,53 +49,57 @@
     </header>
     <section class="about">
         <div class="container">
-            <div class="row">
-                <div class="col-7">
-                    <h3>About</h3>
-                    <p> <span>
-                            Hello, I am Vu, Front-end Developer
-                        </span>
-                        <br>
-                        Born and raised in HCMC, I graduated from Cybersoft Academy. Im passionate about development.
-                        Im a teamwork player and always want to upgrade myself everyday. My hobbies are coding, reading
-                        books, playing games and sports.
-                    </p>
-                    <img src="./assets/images/signature.png" alt="">
-                </div>
-                <div class="col-5">
-                    <h3>Basic Information</h3>
-                    <div class="basic_info">
-                        <div class="row">
-                            <div class="col-4">
-                                <h6>Address:</h6>
-                            </div>
-                            <div class="col-8">
-                                <h6>80/5a Tan Thoi Nhat 6 Street, 6 Quarter, Tan Thoi Nhat Ward, District 12, HCMC.
-                                </h6>
-                            </div>
-                            <div class="col-4">
-                                <h6>Date of birth:</h6>
-                            </div>
-                            <div class="col-8">
-                                <h6>04/02/1994.</h6>
-                            </div>
-                            <div class="col-4">
-                                <h6>Place of Birth</h6>
-                            </div>
-                            <div class="col-8">
-                                <h6>HCHC, VietNam.</h6>
-                            </div>
-                            <div class="col-4">
-                                <h6>Language</h6>
-                            </div>
-                            <div class="col-8">
-                                <h6>Vietnamese, English.</h6>
-                            </div>
-                            <div class="col-4">
-                                <h6>Gender</h6>
-                            </div>
-                            <div class="col-8">
-                                <h6>Male.</h6>
+            <div class="about_content">
+                <div class="row">
+                    <div class="about_info col-7">
+                        <h3>About</h3>
+                        <p> <span>
+                                Hello, I am Vu, Front-end Developer
+                            </span>
+                            <br>
+                            Born and raised in HCMC, I graduated from Cybersoft Academy. Im passionate about
+                            development.
+                            Im a teamwork player and always want to upgrade myself everyday. My hobbies are coding,
+                            reading
+                            books, playing games and sports.
+                        </p>
+                        <img src="./assets/images/signature.png" alt="">
+                    </div>
+                    <div class="about_living col-5">
+                        <h3>Basic Information</h3>
+                        <div class="basic_info">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h6>Address:</h6>
+                                </div>
+                                <div class="col-8">
+                                    <h6>80/5a, Tan Thoi Nhat 6 Street, 6 Quarter, Tan Thoi Nhat Ward, District 12, HCMC.
+                                    </h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6>Date of birth:</h6>
+                                </div>
+                                <div class="col-8">
+                                    <h6>04/02/1994.</h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6>Place of Birth</h6>
+                                </div>
+                                <div class="col-8">
+                                    <h6>HCHC, VietNam.</h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6>Language</h6>
+                                </div>
+                                <div class="col-8">
+                                    <h6>Vietnamese, English.</h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6>Gender</h6>
+                                </div>
+                                <div class="col-8">
+                                    <h6>Male.</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -103,19 +108,104 @@
         </div>
     </section>
 
-
+    <section class="skills">
+        <div class="container">
+            <div class="skill_content">
+                <div class="row">
+                    <div class="skills_info col-6">
+                        <h3>Personal Experience</h3>
+                        <div class="mb-2 my-4">
+                            <h6>Programing Languages</h6>
+                            <span>HTML, CSS(Scss), JS(Es6), TS</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-warning" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 70%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>Java</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-warning" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 40%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-2 my-4">
+                            <h6>Frameworks</h6>
+                            <span>React (React-redux, Redux-thunk)</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 85%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>Angular</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-danger" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 60%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-2 my-4">
+                            <h6>Source Control</h6>
+                            <span>Git Desktop, Tortoise Git</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 80%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>Git</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 45%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-2 my-4">
+                            <h6>Soft Skills</h6>
+                            <span>Critical Thinking</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 60%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>Problem Solving</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 60%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>Listening Skill</span>
+                            <div class="progress my-1">
+                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right"
+                                    data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 80%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 skills_image">
+                        <img src="./assets/images/thumb-1920-483222.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="height: 100px;"></div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./assets/js/aos.js?ver=1.2.0"></script>
+
+    <script>
+        AOS.init({
+            anchorPlacement: 'top-left',
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>

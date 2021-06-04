@@ -6,7 +6,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #29303b;
-  background-color: #fff;
+  background-color: #a1a7b3;
   line-height: 1.43; }
 
 .myHeader {
@@ -37,13 +37,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 20px;
     height: 450px; }
     .myHeader .container .header_intro img {
       margin-top: 20px;
-      width: 150px;
-      height: 150px;
-      border-radius: 150px; }
+      width: 200px;
+      height: 200px;
+      border-radius: 200px; }
     .myHeader .container .header_intro .intro {
       margin-top: 20px; }
       .myHeader .container .header_intro .intro h2 {
@@ -65,7 +64,7 @@ body {
         .myHeader .container .header_intro .contact span:hover {
           color: lightblue; }
     .myHeader .container .header_intro .resume {
-      margin-top: 80px;
+      margin-top: 51px;
       text-align: right; }
       .myHeader .container .header_intro .resume button {
         color: #fff;
@@ -82,27 +81,55 @@ body {
           background-color: #3eb0ca; }
 
 .about {
-  margin-top: 265px;
-  padding-top: 50px; }
-  .about .container .row .col-7 {
-    padding-left: 50px;
-    padding-right: 75px; }
-    .about .container .row .col-7 p {
-      text-align: justify; }
-      .about .container .row .col-7 p span {
-        color: #4dbfd9;
-        font-size: 18px;
-        font-weight: bold;
-        color: #4dbfd9; }
-  .about .container .row .col-5 .basic_info .row .col-4 h6 {
-    color: #fff;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 8px; }
-  .about .container .row .col-5 .basic_info .row .col-8 h6 {
-    color: #686f7a;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 8px; }
+  margin-top: 260px; }
+  .about .container .about_content {
+    background-color: white;
+    padding-top: 30px; }
+    .about .container .about_content .row {
+      padding-bottom: 10px; }
+      .about .container .about_content .row .about_info {
+        padding-left: 50px;
+        padding-right: 75px; }
+        .about .container .about_content .row .about_info p {
+          text-align: justify; }
+          .about .container .about_content .row .about_info p span {
+            color: #4dbfd9;
+            font-size: 18px;
+            font-weight: bold;
+            color: #4dbfd9; }
+      .about .container .about_content .row .about_living {
+        padding-right: 50px; }
+        .about .container .about_content .row .about_living .basic_info .row .col-4 h6 {
+          color: #29303b;
+          font-size: 13px;
+          font-weight: bold;
+          margin-top: 8px; }
+        .about .container .about_content .row .about_living .basic_info .row .col-8 h6 {
+          color: #686f7a;
+          font-size: 13px;
+          font-weight: bold;
+          margin-top: 8px; }
+
+.skills {
+  margin-top: 40px; }
+  .skills .container .skill_content {
+    background-color: white; }
+    .skills .container .skill_content .row {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      padding-bottom: 30px; }
+      .skills .container .skill_content .row .skills_info {
+        padding-left: 50px; }
+        .skills .container .skill_content .row .skills_info h6 {
+          color: #29303b;
+          font-size: 15px;
+          font-weight: bold; }
+        .skills .container .skill_content .row .skills_info .progress {
+          height: 3px; }
+      .skills .container .skill_content .row .skills_image {
+        padding-right: 50px; }
+        .skills .container .skill_content .row .skills_image img {
+          width: 100%;
+          height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
