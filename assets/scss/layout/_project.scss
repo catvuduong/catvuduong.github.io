@@ -1,0 +1,22 @@
+.myProject {
+    margin-top: 40px;
+    .container {
+        .project_content {
+            background-color: white;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 50px;
+            h3 {
+            }
+            .row {
+                .project_item {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    h5 {
+                        @include text($color-red-0, $fs-0, $fw-bold);
+                    }
+                }
+            }
+        }
+    }
+}

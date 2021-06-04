@@ -80,73 +80,86 @@ body {
         .myHeader .container .header_intro .resume button:hover {
           background-color: #3eb0ca; }
 
-.about {
+.myAbout {
   margin-top: 260px; }
-  .about .container .about_content {
+  .myAbout .container .about_content {
     background-color: white;
     padding-top: 30px; }
-    .about .container .about_content .row {
+    .myAbout .container .about_content .row {
       padding-bottom: 10px; }
-      .about .container .about_content .row .about_info {
+      .myAbout .container .about_content .row .about_info {
         padding-left: 50px;
         padding-right: 75px; }
-        .about .container .about_content .row .about_info p {
+        .myAbout .container .about_content .row .about_info p {
           text-align: justify; }
-          .about .container .about_content .row .about_info p span {
+          .myAbout .container .about_content .row .about_info p span {
             color: #4dbfd9;
             font-size: 18px;
             font-weight: bold;
             color: #4dbfd9; }
-      .about .container .about_content .row .about_living {
+      .myAbout .container .about_content .row .about_living {
         padding-right: 50px; }
-        .about .container .about_content .row .about_living .basic_info .row .col-4 h6 {
+        .myAbout .container .about_content .row .about_living .basic_info .row .col-4 h6 {
           color: #29303b;
           font-size: 13px;
           font-weight: bold;
           margin-top: 8px; }
-        .about .container .about_content .row .about_living .basic_info .row .col-8 h6 {
+        .myAbout .container .about_content .row .about_living .basic_info .row .col-8 h6 {
           color: #686f7a;
           font-size: 13px;
           font-weight: bold;
           margin-top: 8px; }
 
-.skills {
+.mySkills {
   margin-top: 40px; }
-  .skills .container .skill_content {
-    background-color: white; }
-    .skills .container .skill_content .row {
-      padding-top: 30px;
-      padding-bottom: 10px;
-      padding-bottom: 30px; }
-      .skills .container .skill_content .row .skills_info {
-        padding-left: 50px; }
-        .skills .container .skill_content .row .skills_info h6 {
-          color: #29303b;
+  .mySkills .container .skill_content {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .mySkills .container .skill_content .row .skills_info {
+      padding-left: 50px; }
+      .mySkills .container .skill_content .row .skills_info h6 {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: bold; }
+      .mySkills .container .skill_content .row .skills_info .progress {
+        height: 3px; }
+    .mySkills .container .skill_content .row .education {
+      padding-right: 50px; }
+      .mySkills .container .skill_content .row .education img {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px; }
+      .mySkills .container .skill_content .row .education .academy h6 {
+        color: #29303b;
+        font-size: 13px;
+        font-weight: normal; }
+      .mySkills .container .skill_content .row .education .academy .education_item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px; }
+        .mySkills .container .skill_content .row .education .academy .education_item h5 {
+          color: #4dbfd9;
           font-size: 15px;
           font-weight: bold; }
-        .skills .container .skill_content .row .skills_info .progress {
-          height: 3px; }
-      .skills .container .skill_content .row .education {
-        padding-right: 50px; }
-        .skills .container .skill_content .row .education img {
-          width: 100%;
-          height: 60%;
-          border-radius: 10px; }
-        .skills .container .skill_content .row .education .academy h6 {
-          color: #29303b;
-          font-size: 13px;
-          font-weight: normal; }
-        .skills .container .skill_content .row .education .academy .education_item {
-          display: flex;
-          justify-content: space-between;
-          margin-bottom: 5px; }
-          .skills .container .skill_content .row .education .academy .education_item h5 {
-            color: #4dbfd9;
-            font-size: 15px;
-            font-weight: bold; }
-          .skills .container .skill_content .row .education .academy .education_item img {
-            width: 30px;
-            height: 30px;
-            border-radius: 30px; }
+        .mySkills .container .skill_content .row .education .academy .education_item img {
+          width: 30px;
+          height: 30px;
+          border-radius: 30px; }
+
+.myProject {
+  margin-top: 40px; }
+  .myProject .container .project_content {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px; }
+    .myProject .container .project_content .row .project_item {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .myProject .container .project_content .row .project_item h5 {
+        color: #ec5252;
+        font-size: 15px;
+        font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
