@@ -126,10 +126,27 @@ body {
           font-weight: bold; }
         .skills .container .skill_content .row .skills_info .progress {
           height: 3px; }
-      .skills .container .skill_content .row .skills_image {
+      .skills .container .skill_content .row .education {
         padding-right: 50px; }
-        .skills .container .skill_content .row .skills_image img {
+        .skills .container .skill_content .row .education img {
           width: 100%;
-          height: 100%; }
+          height: 60%;
+          border-radius: 10px; }
+        .skills .container .skill_content .row .education .academy h6 {
+          color: #29303b;
+          font-size: 13px;
+          font-weight: normal; }
+        .skills .container .skill_content .row .education .academy .education_item {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 5px; }
+          .skills .container .skill_content .row .education .academy .education_item h5 {
+            color: #4dbfd9;
+            font-size: 15px;
+            font-weight: bold; }
+          .skills .container .skill_content .row .education .academy .education_item img {
+            width: 30px;
+            height: 30px;
+            border-radius: 30px; }
 
 /*# sourceMappingURL=style.css.map */
