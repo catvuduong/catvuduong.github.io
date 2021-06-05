@@ -39,20 +39,16 @@ body {
     text-align: center;
     height: 450px; }
     .myHeader .container .header_intro img {
-      margin-top: 20px;
-      width: 200px;
-      height: 200px;
-      border-radius: 200px; }
-    .myHeader .container .header_intro .intro {
-      margin-top: 20px; }
-      .myHeader .container .header_intro .intro h2 {
-        color: #fff;
-        font-size: 40px;
-        font-weight: bold; }
-      .myHeader .container .header_intro .intro h6 {
-        color: #fff;
-        font-size: 13px;
-        font-weight: bold; }
+      width: 225px;
+      height: 291px; }
+    .myHeader .container .header_intro .intro h2 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold; }
+    .myHeader .container .header_intro .intro h6 {
+      color: #fff;
+      font-size: 13px;
+      font-weight: bold; }
     .myHeader .container .header_intro .contact {
       margin-top: 30px; }
       .myHeader .container .header_intro .contact span {
@@ -64,7 +60,6 @@ body {
         .myHeader .container .header_intro .contact span:hover {
           color: lightblue; }
     .myHeader .container .header_intro .resume {
-      margin-top: 51px;
       text-align: right; }
       .myHeader .container .header_intro .resume button {
         color: #fff;
