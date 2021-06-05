@@ -9,24 +9,28 @@
         padding-bottom: 30px;
         padding-left: 35px;
         padding-right: 35px;
-        h3 {
-            @include text($color-black-0, $fs-4, $fw-bold);
+        h4 {
+            @include text($color-black-0, $fs-2, $fw-bold);
+        }
+        h6 {
+            @include text($color-gray-4, $fs-1, $fw-normal);
         }
         .contact {
-            margin-top: 10px;
-            i {
-                margin: 5px 15px;
-                font-size: 20px;
-                cursor: pointer;
-                transition: all 0.5s;
-                color: white;
-                &:hover {
-                    color: lightblue;
+            margin-top: 20px;
+            a {
+                i {
+                    margin: 5px 15px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: all 0.5s;
+                    color: black;
+                    &:hover {
+                        color: lightblue;
+                    }
                 }
             }
         }
         .copyright {
-            margin-top: 20px;
             h5 {
                 margin-bottom: 0;
                 @include text($color-black-0, $fs-0, $fw-normal);
@@ -34,9 +38,6 @@
                     margin: 10px 10px;
                 }
             }
-        }
-        h5 {
-            @include text($color-black-0, $fs-0, $fw-normal);
         }
     }
 }

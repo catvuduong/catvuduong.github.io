@@ -7,14 +7,27 @@
             padding-bottom: 30px;
             padding-left: 35px;
             padding-right: 35px;
-            h3 {
-            }
             .row {
                 .project_item {
                     padding-top: 10px;
                     padding-bottom: 10px;
                     h5 {
                         @include text($color-red-0, $fs-0, $fw-bold);
+                    }
+                    a {
+                        button {
+                            padding: 7px 20px;
+                            background-color: transparent;
+                            border: 1px solid greenyellow;
+                            border-radius: 10px;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: greenyellow;
+                            }
+                            &:focus {
+                                outline: none;
+                            }
+                        }
                     }
                 }
             }
