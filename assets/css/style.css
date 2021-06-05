@@ -11,7 +11,7 @@ body {
 
 .myHeader {
   height: 300px;
-  background: url("./../../images/Rd32a0df1cd39aee553e337b7cbca66ea.jpg");
+  background: url("./../../images/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .myHeader .container .header_contact {
