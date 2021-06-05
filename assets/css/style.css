@@ -148,7 +148,8 @@ body {
     background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px; }
+    padding-left: 35px;
+    padding-right: 35px; }
     .myProject .container .project_content .row .project_item {
       padding-top: 10px;
       padding-bottom: 10px; }
@@ -156,5 +157,44 @@ body {
         color: #ec5252;
         font-size: 15px;
         font-weight: bold; }
+
+.myFooter {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; }
+  .myFooter .footer_content {
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px; }
+    .myFooter .footer_content h3 {
+      color: #29303b;
+      font-size: 40px;
+      font-weight: bold; }
+    .myFooter .footer_content .contact {
+      margin-top: 10px; }
+      .myFooter .footer_content .contact i {
+        margin: 5px 15px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.5s;
+        color: white; }
+        .myFooter .footer_content .contact i:hover {
+          color: lightblue; }
+    .myFooter .footer_content .copyright {
+      margin-top: 20px; }
+      .myFooter .footer_content .copyright h5 {
+        margin-bottom: 0;
+        color: #29303b;
+        font-size: 15px;
+        font-weight: normal; }
+        .myFooter .footer_content .copyright h5 i {
+          margin: 10px 10px; }
+    .myFooter .footer_content h5 {
+      color: #29303b;
+      font-size: 15px;
+      font-weight: normal; }
 
 /*# sourceMappingURL=style.css.map */
