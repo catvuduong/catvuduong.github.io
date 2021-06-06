@@ -1,0 +1,12 @@
+#audioButton {
+    position: fixed;
+    bottom: 6%;
+    left: 5%;
+    padding: 16px 20px;
+    border: 1px solid grey;
+    border-radius: 40px;
+    background-color: transparent;
+    &:focus {
+        outline: none;
+    }
+}

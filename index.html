@@ -237,6 +237,7 @@
             </div>
         </div>
     </section>
+    
     <footer class="myFooter">
         <div class="container">
             <div class="footer_content">
@@ -269,6 +270,12 @@
         </div>
     </footer>
 
+    <div class="toggleAudio">
+        <button id="audioButton" onclick="toggleAudio()"><i class="fa fa-pause"></i></button>
+    </div>
+
+    <audio id="myAudio" loop autoplay src="./assets/audio/Rhythm of the rain.mp3"></audio>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -279,13 +286,13 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="./assets/js/aos.js?ver=1.2.0"></script>
-
     <script>
         AOS.init({
             anchorPlacement: 'top-left',
             duration: 1000
         });
     </script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

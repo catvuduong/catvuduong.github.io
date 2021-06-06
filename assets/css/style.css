@@ -7,7 +7,8 @@ body {
   font-size: 15px;
   color: #29303b;
   background-color: #f2f3f5;
-  line-height: 1.43; }
+  line-height: 1.43;
+  position: relative; }
 
 .myHeader {
   height: 300px;
@@ -206,5 +207,16 @@ body {
       font-weight: normal; }
       .myFooter .footer_content .copyright h5 i {
         margin: 10px 10px; }
+
+#audioButton {
+  position: fixed;
+  bottom: 6%;
+  left: 5%;
+  padding: 16px 20px;
+  border: 1px solid grey;
+  border-radius: 40px;
+  background-color: transparent; }
+  #audioButton:focus {
+    outline: none; }
 
 /*# sourceMappingURL=style.css.map */
