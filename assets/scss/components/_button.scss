@@ -1,12 +1,50 @@
 #audioButton {
     position: fixed;
-    bottom: 6%;
-    left: 5%;
-    padding: 16px 20px;
+    top: 3%;
+    left: 1%;
+    padding: 5px 10px;
     border: 1px solid grey;
-    border-radius: 40px;
+    border-radius: 15px;
     background-color: transparent;
     &:focus {
         outline: none;
+    }
+    display: none;
+    @include respond-to("1600") {
+        display: block;
+    }
+}
+
+.btn-shine {
+    position: fixed;
+    bottom: 10%;
+    right: -6%;
+    transform: translate(-50%, -50%);
+    padding: 12px 48px;
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d 0, rgba(0, 255, 0, 0.973) 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    @keyframes shine {
+        0% {
+            background-position: 0;
+        }
+        60% {
+            background-position: 180px;
+        }
+        100% {
+            background-position: 180px;
+        }
+    }
+    @include respond-to("1600") {
+        display: none;
     }
 }

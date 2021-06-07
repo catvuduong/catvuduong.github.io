@@ -95,14 +95,17 @@ body {
             font-size: 18px;
             font-weight: bold;
             color: #4dbfd9; }
+          @media screen and (max-width: 576px) {
+            .myAbout .container .about_content .row .about_info p {
+              text-align: left; } }
       .myAbout .container .about_content .row .about_living {
         padding-right: 50px; }
-        .myAbout .container .about_content .row .about_living .basic_info .row .col-4 h6 {
+        .myAbout .container .about_content .row .about_living .basic_info .row .tittle h6 {
           color: #29303b;
           font-size: 13px;
           font-weight: bold;
           margin-top: 8px; }
-        .myAbout .container .about_content .row .about_living .basic_info .row .col-8 h6 {
+        .myAbout .container .about_content .row .about_living .basic_info .row .info h6 {
           color: #686f7a;
           font-size: 13px;
           font-weight: bold;
@@ -170,6 +173,14 @@ body {
           background-color: greenyellow; }
         .myProject .container .project_content .row .project_item a button:focus {
           outline: none; }
+      @media screen and (max-width: 992px) {
+        .myProject .container .project_content .row .project_item a {
+          font-size: 10px;
+          margin-bottom: 10px; }
+          .myProject .container .project_content .row .project_item a button {
+            border: none;
+            padding: 0 0;
+            margin-left: 5px; } }
 
 .myFooter {
   margin-top: 10px;
@@ -190,6 +201,8 @@ body {
       color: #686f7a;
       font-size: 13px;
       font-weight: normal; }
+    .myFooter .footer_content br {
+      display: none; }
     .myFooter .footer_content .contact {
       margin-top: 20px; }
       .myFooter .footer_content .contact a i {
@@ -207,16 +220,62 @@ body {
       font-weight: normal; }
       .myFooter .footer_content .copyright h5 i {
         margin: 10px 10px; }
+    @media screen and (max-width: 576px) {
+      .myFooter .footer_content .row .gmail br {
+        display: block; } }
 
 #audioButton {
   position: fixed;
-  bottom: 6%;
-  left: 5%;
-  padding: 16px 20px;
+  top: 3%;
+  left: 1%;
+  padding: 5px 10px;
   border: 1px solid grey;
-  border-radius: 40px;
-  background-color: transparent; }
+  border-radius: 15px;
+  background-color: transparent;
+  display: none; }
   #audioButton:focus {
     outline: none; }
+  @media screen and (max-width: 1600px) {
+    #audioButton {
+      display: block; } }
+
+.btn-shine {
+  position: fixed;
+  bottom: 10%;
+  right: -6%;
+  transform: translate(-50%, -50%);
+  padding: 12px 48px;
+  color: #ffffff;
+  background: linear-gradient(to right, #4d4d4d 0, rgba(0, 255, 0, 0.973) 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap; }
+@keyframes shine {
+  0% {
+    background-position: 0; }
+  60% {
+    background-position: 180px; }
+  100% {
+    background-position: 180px; } }
+  @media screen and (max-width: 1600px) {
+    .btn-shine {
+      display: none; } }
+
+#myAudio {
+  position: fixed;
+  bottom: 6%;
+  right: 2%;
+  width: 200px;
+  opacity: 0.5; }
+  @media screen and (max-width: 1600px) {
+    #myAudio {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

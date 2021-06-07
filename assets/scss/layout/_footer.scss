@@ -15,6 +15,9 @@
         h6 {
             @include text($color-gray-4, $fs-1, $fw-normal);
         }
+        br {
+            display: none;
+        }
         .contact {
             margin-top: 20px;
             a {
@@ -36,6 +39,15 @@
                 @include text($color-black-0, $fs-0, $fw-normal);
                 i {
                     margin: 10px 10px;
+                }
+            }
+        }
+        @include respond-to("576") {
+            .row {
+                .gmail {
+                    br {
+                        display: block;
+                    }
                 }
             }
         }

@@ -15,19 +15,22 @@
                             @include text(#4dbfd9, 18px, $fw-bold);
                             color: #4dbfd9;
                         }
+                        @include respond-to("576") {
+                            text-align: left;
+                        }
                     }
                 }
                 .about_living {
                     padding-right: 50px;
                     .basic_info {
                         .row {
-                            .col-4 {
+                            .tittle {
                                 h6 {
                                     @include text($color-black-0, $fs-1, $fw-bold);
                                     margin-top: 8px;
                                 }
                             }
-                            .col-8 {
+                            .info {
                                 h6 {
                                     @include text($color-gray-4, $fs-1, $fw-bold);
                                     margin-top: 8px;
