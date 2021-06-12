@@ -17,10 +17,15 @@
                 }
                 .education {
                     padding-right: 50px;
-                    img {
-                        width: 100%;
-                        height: 60%;
-                        border-radius: 10px;
+                    .fixing_image {
+                        img {
+                            width: 100%;
+                            height: 60%;
+                            border-radius: 10px;
+                            @include respond-to("992") {
+                                display: none;
+                            }
+                        }
                     }
                     .academy {
                         h6 {

@@ -27,6 +27,11 @@
                             &:focus {
                                 outline: none;
                             }
+                            @include respond-to("992") {
+                                &:hover {
+                                    background-color: transparent;
+                                }
+                            }
                         }
                     }
                     @include respond-to("992") {

@@ -127,10 +127,13 @@ body {
         height: 3px; }
     .mySkills .container .skill_content .row .education {
       padding-right: 50px; }
-      .mySkills .container .skill_content .row .education img {
+      .mySkills .container .skill_content .row .education .fixing_image img {
         width: 100%;
         height: 60%;
         border-radius: 10px; }
+        @media screen and (max-width: 992px) {
+          .mySkills .container .skill_content .row .education .fixing_image img {
+            display: none; } }
       .mySkills .container .skill_content .row .education .academy h6 {
         color: #29303b;
         font-size: 13px;
@@ -173,6 +176,9 @@ body {
           background-color: greenyellow; }
         .myProject .container .project_content .row .project_item a button:focus {
           outline: none; }
+        @media screen and (max-width: 992px) {
+          .myProject .container .project_content .row .project_item a button:hover {
+            background-color: transparent; } }
       @media screen and (max-width: 992px) {
         .myProject .container .project_content .row .project_item a {
           font-size: 10px;
