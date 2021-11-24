@@ -5,7 +5,7 @@ body {
     font-family: $primary-font;
     font-size: 18px;
     line-height: 1;
-    color: $black-0;
+    color: $white-0;
     background-color: $white-cream-0;
     overflow-x: hidden;
 }
@@ -39,26 +39,34 @@ section[id] {
 .wrapper {
     max-width: 1920px;
     margin: 0 auto;
-    // background: url("./../images/img1.jpg") no-repeat top / 100%;
+    background: url("./../../images/bg-1.jpg") no-repeat top / 100%;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
-// .btn {
-//     text-align: center;
-//     font-weight: bold;
-//     height: 55px;
-//     padding: 0 70px;
-//     display: inline-flex;
-//     align-items: center;
-//     border-radius: 4px;
-//     &--primary {
-//         color: white;
-//         background-image: linear-gradient(to right, $primary-color, $secondary-color);
-//     }
-// }
+.btn {
+    text-align: center;
+    font-weight: bold;
+    // height: 55px;
+    // padding: 0 70px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    // &--primary {
+    //     color: white;
+    //     background-image: linear-gradient(to right, $primary-color, $secondary-color);
+    // }
+    &--resume {
+        padding: 5px 10px;
+        color: white;
+        transition: all 0.5s;
+        &:hover {
+            background-color: $blue-0;
+        }
+    }
+}
 
 main {
     min-height: 200vh;

@@ -46,7 +46,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 1;
-  color: #29303b;
+  color: #fff;
   background-color: #f2f3f5;
   overflow-x: hidden;
 }
@@ -85,6 +85,7 @@ section[id] {
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
+  background: url("./../../images/bg-1.jpg") no-repeat top/100%;
 }
 
 .container {
@@ -93,12 +94,119 @@ section[id] {
   padding: 0 15px;
 }
 
+.btn {
+  text-align: center;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.btn--resume {
+  padding: 5px 10px;
+  color: white;
+  transition: all 0.5s;
+}
+.btn--resume:hover {
+  background-color: #007791;
+}
+
 main {
   min-height: 200vh;
 }
 
 section {
   display: none;
+}
+
+.caption {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2173913043;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.highlight-text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #4dbfd9;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: block;
+  padding-top: 300px;
+}
+.info-main {
+  padding: 15px 0;
+  background: url("./../../images/bg-2.jpg") no-repeat top/100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.info-portrait {
+  display: block;
+  max-width: 100%;
+}
+.info-content {
+  text-align: center;
+}
+.info-name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.info-job {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.info-contact a {
+  transition: all 0.5s;
+  margin: 0 5px;
+}
+.info-resume {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about {
+  display: block;
+}
+.about-main {
+  padding: 30px 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 50px;
+}
+.about-info {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-gap: 0 10px;
+}
+.about-paragraph {
+  text-align: justify;
+}
+.about-text {
+  color: #686f7a;
 }
 
 /*# sourceMappingURL=style.css.map */

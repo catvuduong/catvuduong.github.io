@@ -1,0 +1,26 @@
+.caption {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: lineH(28, 23);
+    color: black;
+    margin-bottom: 15px;
+}
+.highlight-text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: lineH(18, 15);
+    color: $blue-1;
+    margin-bottom: 10px;
+}
+.heading {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: lineH(15, 12.5);
+    margin-bottom: 10px;
+}
