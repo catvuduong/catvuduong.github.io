@@ -20,18 +20,19 @@
     &-name {
         font-size: 40px;
         font-weight: bold;
+        color: $white-0;
         margin-bottom: 15px;
     }
     &-job {
         font-size: 13px;
         font-weight: bold;
+        color: $white-0;
         margin-bottom: 25px;
     }
-    &-contact {
-        a {
-            transition: all 0.5s;
-            margin: 0 5px;
-        }
+    &-link {
+        transition: all 0.5s;
+        color: $white-0;
+        margin: 0 5px;
     }
     &-resume {
         position: absolute;

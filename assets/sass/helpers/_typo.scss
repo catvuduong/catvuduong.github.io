@@ -2,7 +2,7 @@
     font-size: 28px;
     font-weight: bold;
     line-height: lineH(28, 23);
-    color: black;
+    color: $black-0;
     margin-bottom: 15px;
 }
 .highlight-text {
@@ -13,14 +13,16 @@
     margin-bottom: 10px;
 }
 .heading {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     line-height: 1.5;
+    color: $black-0;
     margin-bottom: 10px;
 }
 .text {
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: lineH(15, 12.5);
-    margin-bottom: 10px;
+    color: $black-0;
+    margin-bottom: 5px;
 }
