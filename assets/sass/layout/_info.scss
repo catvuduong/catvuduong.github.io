@@ -51,6 +51,7 @@
         padding-top: 90px;
     }
     @include maxW(539px) {
+        padding-top: 45px;
         &-portrait {
             max-width: 50%;
         }

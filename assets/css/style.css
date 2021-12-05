@@ -224,6 +224,9 @@ section {
   }
 }
 @media screen and (max-width: 539px) {
+  .info {
+    padding-top: 45px;
+  }
   .info-portrait {
     max-width: 50%;
   }
