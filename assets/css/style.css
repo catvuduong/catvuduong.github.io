@@ -166,6 +166,7 @@ section {
 
 .info {
   display: block;
+  margin-bottom: 30px;
   padding-top: 300px;
 }
 .info-main {
@@ -175,6 +176,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-size: cover;
   position: relative;
 }
 .info-portrait {
@@ -206,6 +208,37 @@ section {
   right: 0;
   bottom: 0;
 }
+@media screen and (max-width: 1599px) {
+  .info {
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .info {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 539px) {
+  .info-portrait {
+    max-width: 50%;
+  }
+  .info-resume span {
+    display: none;
+  }
+  .info-resume::after {
+    content: "My CV";
+  }
+}
+@media screen and (max-width: 374px) {
+  .info-name {
+    font-size: 25px;
+  }
+}
 
 .about {
   display: block;
@@ -224,12 +257,25 @@ section {
 .about-paragraph {
   text-align: justify;
 }
+.about-img {
+  padding-top: 10px;
+}
 .about-heading {
   font-size: 15px;
   font-weight: 500;
 }
 .about-text {
   color: #686f7a;
+}
+@media screen and (max-width: 767px) {
+  .about-info {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 374px) {
+  .about-main {
+    grid-template-columns: 1fr;
+  }
 }
 
 .skill {
@@ -265,6 +311,16 @@ section {
   color: #000000;
   margin-bottom: 5px;
 }
+@media screen and (max-width: 539px) {
+  .skill-school {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .skill-main {
+    grid-template-columns: 1fr;
+  }
+}
 
 .project {
   display: block;
@@ -283,6 +339,11 @@ section {
 .project-web {
   margin-top: 15px;
 }
+@media screen and (max-width: 539px) {
+  .project-link {
+    margin-bottom: 10px;
+  }
+}
 
 .footer {
   display: block;
@@ -291,7 +352,7 @@ section {
 .footer-main {
   padding: 30px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0 50px;
 }
 .footer-item {
@@ -319,6 +380,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 539px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    grid-gap: 10px 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

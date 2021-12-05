@@ -30,4 +30,14 @@
         color: $black-0;
         margin-bottom: 5px;
     }
+    @include maxW(539px) {
+        &-school {
+            max-width: 100px;
+        }
+    }
+    @include maxW(374px) {
+        &-main {
+            grid-template-columns: 1fr;
+        }
+    }
 }

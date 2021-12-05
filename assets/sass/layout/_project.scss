@@ -14,4 +14,9 @@
     &-web {
         margin-top: 15px;
     }
+    @include maxW(539px) {
+        &-link {
+            margin-bottom: 10px;
+        }
+    }
 }

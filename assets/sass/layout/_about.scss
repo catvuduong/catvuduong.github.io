@@ -14,11 +14,24 @@
     &-paragraph {
         text-align: justify;
     }
+    &-img {
+        padding-top: 10px;
+    }
     &-heading {
         font-size: 15px;
         font-weight: 500;
     }
     &-text {
         color: $gray-4;
+    }
+    @include maxW(767px) {
+        &-info {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @include maxW(374px) {
+        &-main {
+            grid-template-columns: 1fr;
+        }
     }
 }

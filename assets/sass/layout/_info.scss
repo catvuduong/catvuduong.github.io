@@ -1,5 +1,6 @@
 .info {
     display: block;
+    margin-bottom: 30px;
     padding-top: 300px;
     &-main {
         padding: 15px 0;
@@ -8,6 +9,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-size: cover;
         position: relative;
     }
     &-portrait {
@@ -38,5 +40,32 @@
         position: absolute;
         right: 0;
         bottom: 0;
+    }
+    @include maxW(1599px) {
+        padding-top: 150px;
+    }
+    @include maxW(1023px) {
+        padding-top: 120px;
+    }
+    @include maxW(767px) {
+        padding-top: 90px;
+    }
+    @include maxW(539px) {
+        &-portrait {
+            max-width: 50%;
+        }
+        &-resume {
+            span {
+                display: none;
+            }
+        }
+        &-resume::after {
+            content: "My CV";
+        }
+    }
+    @include maxW(374px) {
+        &-name {
+            font-size: 25px;
+        }
     }
 }
