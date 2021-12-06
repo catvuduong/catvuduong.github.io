@@ -115,6 +115,7 @@ section[id] {
 }
 .basebtn--resume:hover {
   background-color: #007791;
+  color: #fff;
 }
 .basebtn--link {
   color: black;
@@ -388,6 +389,76 @@ section {
   .footer-main {
     grid-template-columns: 1fr;
     grid-gap: 10px 0;
+  }
+}
+
+#audioButton {
+  position: fixed;
+  top: 3%;
+  left: 1%;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 7px 7px;
+  border: 1px solid #000000;
+  background-color: transparent;
+  display: none;
+}
+#audioButton:focus {
+  outline: none;
+}
+@media screen and (max-width: 1599px) {
+  #audioButton {
+    display: block;
+  }
+}
+
+.btn-shine {
+  position: fixed;
+  bottom: 10%;
+  right: -6%;
+  transform: translate(-50%, -50%);
+  padding: 12px 48px;
+  color: #ffffff;
+  background: linear-gradient(to right, #4d4d4d 0, rgba(0, 255, 0, 0.973) 40%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@media screen and (max-width: 1599px) {
+  .btn-shine {
+    display: none;
+  }
+}
+
+#myAudio {
+  position: fixed;
+  bottom: 6%;
+  right: 2%;
+  width: 200px;
+  opacity: 0.5;
+}
+@media screen and (max-width: 1599px) {
+  #myAudio {
+    visibility: hidden;
   }
 }
 

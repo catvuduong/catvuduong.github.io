@@ -1,65 +1,11 @@
 //font
-// $primary-font: "Roboto", sans-serif;
 $primary-font: "Open Sans", sans-serif;
 // variable color
 $white-0: #fff;
-$black-0: #000000; // default
+$black-0: #000000;
 $white-cream-0: #f2f3f5;
 $blue-0: #007791;
 $blue-1: #4dbfd9;
 $gray-4: #686f7a;
 $red-0: #ec5252;
 $green-0: #1cd94e;
-
-$color-white-0: #fff; //default
-$color-red-0: #ec5252;
-$color-red-1: #521822;
-$color-purple: #6e1a52;
-$color-gray-1: rgba(20, 23, 28, 0.05);
-$color-gray-3: #cacbcc;
-$color-gray-4: #686f7a;
-$color-gray-5: #f7f8fa;
-$color-black-light: #505763;
-// $color-white-cream: #f2f3f5;
-$color-black-dark: rgba(20, 23, 28, 0.1);
-$color-yellow: #f4c150;
-$color-blue: #007791;
-
-// variable font-size
-$fs-0: 15px; //default
-$fs-1: 13px;
-$fs-2: 20px;
-$fs-3: 24px;
-//Còn 1 font-size: 36px;
-$fs-4: 40px;
-
-//variable margin
-$mg-0: 2px;
-$mg-1: 10px;
-$mg-2: 25px;
-
-//variable border-radius
-$border-radius: 2px;
-
-//variable padding
-$pd-0: 5px; //default
-$pd-1: 10px;
-$pd-2: 20px;
-
-//variable line-height
-$line-height-0: 1.43; //default
-
-//variable font-weight
-$fw-normal: normal;
-$fw-bold-0: 600;
-$fw-bold-1: 700;
-$fw-bold: bold;
-
-//break points
-$breakpoints: (
-    "1600": 1600px,
-    "1199": 1199px,
-    "992": 992px,
-    "767": 767px,
-    "576": 576px,
-);
