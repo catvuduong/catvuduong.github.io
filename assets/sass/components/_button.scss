@@ -2,15 +2,17 @@
     position: fixed;
     top: 3%;
     left: 1%;
-    padding: 5px 10px;
-    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
     border-radius: 15px;
+    padding: 7px 7px;
+    border: 1px solid $black-0;
     background-color: transparent;
     &:focus {
         outline: none;
     }
     display: none;
-    @include respond-to("1600") {
+    @include maxW(1599px) {
         display: block;
     }
 }
@@ -44,7 +46,7 @@
             background-position: 180px;
         }
     }
-    @include respond-to("1600") {
+    @include maxW(1599px) {
         display: none;
     }
 }

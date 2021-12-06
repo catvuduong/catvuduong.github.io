@@ -1,0 +1,43 @@
+.skill {
+    display: block;
+    &-main {
+        padding: 30px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 50px;
+    }
+    &-experience {
+        margin-bottom: 10px;
+        .progress {
+            height: 3px;
+        }
+    }
+    &-detail {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-edulogo {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+    &-school {
+        color: $blue-1;
+    }
+    &-text {
+        font-size: 13px;
+        font-weight: 300;
+        color: $black-0;
+        margin-bottom: 5px;
+    }
+    @include maxW(539px) {
+        &-school {
+            max-width: 100px;
+        }
+    }
+    @include maxW(374px) {
+        &-main {
+            grid-template-columns: 1fr;
+        }
+    }
+}

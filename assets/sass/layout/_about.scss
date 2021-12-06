@@ -1,0 +1,37 @@
+.about {
+    display: block;
+    &-main {
+        padding: 30px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0 50px;
+    }
+    &-info {
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        grid-gap: 0 10px;
+    }
+    &-paragraph {
+        text-align: justify;
+    }
+    &-img {
+        padding-top: 10px;
+    }
+    &-heading {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    &-text {
+        color: $gray-4;
+    }
+    @include maxW(767px) {
+        &-info {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @include maxW(374px) {
+        &-main {
+            grid-template-columns: 1fr;
+        }
+    }
+}

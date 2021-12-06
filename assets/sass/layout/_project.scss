@@ -1,0 +1,22 @@
+.project {
+    display: block;
+    &-main {
+        padding: 30px 0;
+    }
+    &-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 50px;
+    }
+    &-heading {
+        color: $red-0;
+    }
+    &-web {
+        margin-top: 15px;
+    }
+    @include maxW(539px) {
+        &-link {
+            margin-bottom: 10px;
+        }
+    }
+}
