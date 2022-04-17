@@ -12,6 +12,25 @@
             height: 3px;
         }
     }
+    &-ul {
+        padding-left: 20px;
+    }
+    &-liRed::marker {
+        color: red;
+        font-size: 20px;
+    }
+    &-liBlue::marker {
+        color: blue;
+        font-size: 20px;
+    }
+    &-liYellow::marker {
+        color: yellow;
+        font-size: 20px;
+    }
+    &-liGreen::marker {
+        color: lightgreen;
+        font-size: 20px;
+    }
     &-detail {
         display: flex;
         justify-content: space-between;

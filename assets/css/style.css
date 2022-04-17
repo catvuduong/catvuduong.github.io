@@ -297,6 +297,25 @@ section {
 .skill-experience .progress {
   height: 3px;
 }
+.skill-ul {
+  padding-left: 20px;
+}
+.skill-liRed::marker {
+  color: red;
+  font-size: 20px;
+}
+.skill-liBlue::marker {
+  color: blue;
+  font-size: 20px;
+}
+.skill-liYellow::marker {
+  color: yellow;
+  font-size: 20px;
+}
+.skill-liGreen::marker {
+  color: lightgreen;
+  font-size: 20px;
+}
 .skill-detail {
   display: flex;
   justify-content: space-between;
@@ -336,6 +355,9 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0 50px;
+}
+.project-item {
+  margin-top: 20px;
 }
 .project-heading {
   color: #ec5252;

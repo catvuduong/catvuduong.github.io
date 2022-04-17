@@ -8,6 +8,9 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 0 50px;
     }
+    &-item {
+        margin-top: 20px;
+    }
     &-heading {
         color: $red-0;
     }
