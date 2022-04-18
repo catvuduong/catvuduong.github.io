@@ -484,4 +484,10 @@ section {
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .myAudio {
+    visibility: hidden;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
