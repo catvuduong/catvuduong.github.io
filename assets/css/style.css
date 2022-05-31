@@ -364,6 +364,10 @@ section {
 }
 .project-web {
   margin-top: 15px;
+  width: 350px;
+}
+.project-link {
+  margin-bottom: 6px;
 }
 @media screen and (max-width: 539px) {
   .project-link {

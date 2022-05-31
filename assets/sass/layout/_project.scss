@@ -16,6 +16,10 @@
     }
     &-web {
         margin-top: 15px;
+        width: 350px;
+    }
+    &-link {
+        margin-bottom: 6px;
     }
     @include maxW(539px) {
         &-link {
