@@ -282,6 +282,42 @@ section {
   }
 }
 
+.experience {
+  display: block;
+}
+.experience-main {
+  padding: 30px 0;
+}
+.experience-child {
+  margin-bottom: 10px;
+}
+.experience-child .progress {
+  height: 3px;
+}
+.experience-company-logo {
+  margin-right: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid lightsteelblue;
+  border-radius: 50%;
+}
+.experience-role {
+  font-family: "Caprasimo", cursive;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.experience-ul {
+  padding-left: 20px;
+}
+.experience-liBlack::marker {
+  color: black;
+  font-size: 20px;
+}
+
 .skill {
   display: block;
 }
