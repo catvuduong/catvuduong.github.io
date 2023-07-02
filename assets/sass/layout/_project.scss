@@ -33,4 +33,10 @@
       margin-bottom: 10px;
     }
   }
+
+  @include maxW(375px) {
+    &-item {
+      max-width: 320px;
+    }
+  }
 }

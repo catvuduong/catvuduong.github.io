@@ -455,6 +455,11 @@ section {
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 375px) {
+  .project-item {
+    max-width: 320px;
+  }
+}
 
 .footer {
   display: block;
