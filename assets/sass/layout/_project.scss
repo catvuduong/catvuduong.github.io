@@ -1,29 +1,36 @@
 .project {
-    display: block;
-    &-main {
-        padding: 30px 0;
-    }
+  display: block;
+  &-main {
+    padding: 30px 0;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 50px;
+  }
+  &-item {
+    margin-top: 20px;
+  }
+  &-heading {
+    color: $red-0;
+  }
+  &-web {
+    margin-top: 15px;
+    width: 350px;
+  }
+  &-link {
+    margin-bottom: 6px;
+  }
+
+  @include maxW(767px) {
     &-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0 50px;
+      grid-template-columns: 1fr;
     }
-    &-item {
-        margin-top: 20px;
-    }
-    &-heading {
-        color: $red-0;
-    }
-    &-web {
-        margin-top: 15px;
-        width: 350px;
-    }
+  }
+
+  @include maxW(539px) {
     &-link {
-        margin-bottom: 6px;
+      margin-bottom: 10px;
     }
-    @include maxW(539px) {
-        &-link {
-            margin-bottom: 10px;
-        }
-    }
+  }
 }

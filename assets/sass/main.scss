@@ -1,10 +1,9 @@
 @import "helpers/variable";
+@import "helpers/mixin";
+@import "helpers/typo";
 
 @import "base/reset";
 @import "base/base";
-
-@import "helpers/mixin";
-@import "helpers/typo";
 
 @import "layout/info";
 @import "layout/about";
