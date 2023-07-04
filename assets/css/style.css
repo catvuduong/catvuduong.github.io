@@ -449,6 +449,9 @@ section {
   .project-list {
     grid-template-columns: 1fr;
   }
+  .project-web {
+    width: auto;
+  }
 }
 @media screen and (max-width: 539px) {
   .project-link {

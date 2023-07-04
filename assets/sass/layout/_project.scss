@@ -26,6 +26,9 @@
     &-list {
       grid-template-columns: 1fr;
     }
+    &-web {
+      width: auto;
+    }
   }
 
   @include maxW(539px) {
