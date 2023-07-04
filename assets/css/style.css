@@ -352,6 +352,8 @@ section {
 @media screen and (max-width: 767px) {
   .experience-ul {
     text-align: justify;
+    list-style: none;
+    padding-left: 0;
   }
 }
 

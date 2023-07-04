@@ -38,6 +38,8 @@
   @include maxW(767px) {
     &-ul {
       text-align: justify;
+      list-style: none;
+      padding-left: 0;
     }
   }
 }
